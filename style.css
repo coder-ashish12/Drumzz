@@ -1,0 +1,100 @@
+body{ 
+    margin: 0;
+    padding: 0;
+    background-image: url("baclground.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+.title-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-logo img{
+    margin-top: 60px;
+}
+
+  
+.drum-set{
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    margin-top: 80px;
+    top: 20%;
+    left: 20%;
+}
+
+
+.cymbal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drum1{
+    display: flex;
+    justify-content: space-around; /* Horizontally center the drum1 div */
+    align-items:center;
+}
+
+.drum2{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+    top: 35%;
+    left: 35%;
+    position: absolute;
+}
+
+.level{
+    top: 60%;
+    z-index: 2;
+    left: 47%;
+    position: absolute;
+
+}
+
+#circle {
+    width: 250px;
+    height: 250px;
+    background: #FFB800;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    cursor: grab;
+}
+
+#circle1 {
+    width: 200px;
+    height: 200px;
+    background: #A7D284;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    cursor: grab;
+}
+
+#circle2 {
+    width: 200px;
+    height: 200px;
+    background: #EFBC97;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    cursor: grab;
+}
+
+#circle3 {
+    width: 100px;
+    height: 100px;
+    background: #fc00ab;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 500px;
+    cursor: grab;
+}

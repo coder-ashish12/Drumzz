@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Drumzz - Make Your Beat</title>
+</head>
+<body>
+    <div class="title-logo">
+        <img src="drumzz.png" alt="" width="20%">
+    </div>
+
+    <div class="drum-set">
+        <div class="cymbal" onclick="playCymbalSound()">
+            <div id="circle"></div>
+            <div id="circle"></div>
+        </div>
+        <div class="drum1" onclick="playSnareSound()">
+            <div id="circle1"></div>
+            <div id="circle1"></div>
+        </div>
+        <p style="color: white; text-align:center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Concept by Ashish</p>
+    </div>
+    <div class="drum2" onclick="playKickSound()">
+        <div id="circle2"></div>
+        <div id="circle2"></div>
+    </div>
+
+    <div class="level" onclick="playLevelSound()">
+        <div id="circle3"></div>
+    </div>
+
+    <audio id="cymbal-sound">
+        <source src="cymbal.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="kick-sound">
+        <source src="kick.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="snare-sound">
+        <source src="Snare.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio id="level-sound">
+        <source src="level.mp3" type="audio/mpeg">
+    </audio>
+
+    
+</body>
+</html>
